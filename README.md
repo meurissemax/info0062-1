@@ -9,3 +9,7 @@ Project realized as part of the *Object-oriented programming* course given by Pr
 ## Author
 
 * **Maxime Meurisse** - [meurissemax](https://github.com/meurissemax)
+
+## Score
+
+* This project received a score of **16/20**.
