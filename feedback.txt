@@ -1,0 +1,8 @@
+Result: 16/20
+
+Remarks on compilation/execution:
+-Program still runs with n > 0 and m < 0 (e.g. n = 2, m = -2).
+-Program prevents to test n = m = 1.
+
+Code and OO design: 8.5/10
+A good solution which the main merit is to display good coding, as the main algorithmic parts of the project (like visiting the neighborhood of a square) are simple and elegant. OO-wise, this solution is good but could go further with squares, as they could communicate with each other to count the amount of living neighbors (as suggested by the statement). Hopefully, the current way of performing this operation remains elegant code-wise. The additional Border class seems also unnecessary: while its implementation is correct, there seems to be no strong reason for uncoupling this part of the project from the BorderCell objects. Such objects could have entirely handled the counters by themselves. Finally, documenting your code is a good habit, but using DOxygen for every method is a bit overkill, especially for simple methods such as accessers.

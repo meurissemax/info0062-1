@@ -1,4 +1,13 @@
+##########
+# System #
+##########
+
+# macOS
 .DS_Store
 
-Code/bin/
-feedback.txt
+
+###########
+# Project #
+###########
+
+**/bin/
